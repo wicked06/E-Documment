@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header
+{
+     position: fixed;
+     right: 0;
+     top: 0;
+     z-index: 1000;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: transparent;
+     padding: 33px 9%;
+     
+}
+body
+{
+    background-color: red;
+}
+.logo
+{
+    height: 75px;
+    margin-left: 5%;
+    
+   
+}
+.navlist
+{
+    display: flex;
+}
+.navlist a
+{
+    color: wheat;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    text-decoration: none;
+}
+.navlist a:hover
+{
+    border-bottom: 2px solid white;
+}
+#menu
+{
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+}
+.hero
+{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #4d9559 0%, #38793d, #133917 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+section
+{
+    padding: 0 10%;
+
+}
+.hero-text h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: wheat;
+    margin-bottom: 40px;
+}
+.municipal
+{
+    height: 500px;
+}
+.hero-text h2
+{
+    /* font-family: ; */
+    font-size: 70px;
+    line-height: 1;
+    color: wheat;
+    margin: 0 0 45px;
+}
+
+.hero-text a
+{
+ display: inline-block;
+ color: white;
+ background: #4d9559;
+ border: 1px solid transparent;
+ padding: 12px 30px;
+ line-height: 1.4;
+ font-size: 14px;
+ font-weight: 500;
+ border-radius: 10px;
+ text-transform: uppercase;
+ transition: all .55s ease;
+}
+
+.hero-text a:hover
+{
+    background: yellow;
+    border: 1px solid wheat;
+    transform: translateX(8px);
+    color: #333;
+}
+
+section a 
+{
+    text-decoration: none;
+}
+
+/* .hero-text a.ctaa
+{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+} */
