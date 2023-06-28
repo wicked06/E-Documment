@@ -20,44 +20,46 @@
         <ul class="navlist">
           <li> <a href="index.html">Home</a></li>
             <li> <a href="">Register</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
         </ul>
         <!-- <div class="menu" id="menu"><i class="fa-solid fa-user-lock"></i></div> -->
-        <!-- admin modal -->
-        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#admin">
-            <i class="fa-solid fa-user-lock"></i>
-          </button>
-          
-    </header>
+        <button class="off-but" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-user-lock"></i></button>
+      </header>
 
-    <!-- Modal -->
-<div class="modal fade" id="admin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Admin Log In</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-        <form action=""></form>
-            <label for="">Admin Email</label>
-            <input type="email" class="form-control" >
-            <label >Admin Password</label>
-            <input type="password" class="form-control">
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-success">Save changes</button>
-        </div>
+     <!-- offcanvas -->
+     <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="log-logo"><img src="images/logo-transparent.png" class="admin-logo"></div>
+
+        <form >
+          
+            <div class="input-group">
+                <input type="text" id="admin-email" placeholder="Email"/>
+
+            </div>
+
+            <div class="input-group">
+              <input type="password" id="admin-email" placeholder="Password"/>
+          </div>
+
+           <button type="submit" class="admin-login"> Login </button>
+        </form>
       </div>
     </div>
-  </div>
+
+
+
 <section class="hero">
     <div class="hero-text">
-        <h2>Guide</h2>
-    <h4>To request a Form please click Register</h4>
-    <h4>To contact us please click the Contact Us </h4>
-    <h4>To see what is this website about please click About Us</h4>
+        <h2>Welcome to </h2>
+        <h2>E-Document</h2>
+    <h4>If you want to request form documents </h4>
+    <h4>please click request and register first</h4>
+    <h4>and fill up the form that is appropriately</h4>
 
    
     <a href="" class="ctaa">Register Here</a>
@@ -69,6 +71,10 @@
 
    
 </section>
+<!-- 
+<div class="icons">
+  <a href=""><i class="fa-brands fa-facebook"></i></a>
+</div> -->
 </body>
 
 <script src="js/index.js"></script>
