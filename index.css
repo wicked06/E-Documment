@@ -33,6 +33,7 @@ header
 .log-logo
 {
     margin-left: 42%;
+    margin-bottom: 50px;
    
 }
 .admin-logo
@@ -278,9 +279,9 @@ transition: all .50s ease;
 .admin-login
 {
     width: 100px;
-    margin-left:var(--margin-left);
-    margin-top: 5%;
+    
     height: 40px;
+    width: 100%;
     border-radius: 5px;
     color: #1D1C18;
     background-color: #D9CB50;
@@ -296,4 +297,10 @@ transition: all .50s ease;
     color: #222;
 }
 
-
+footer
+{
+    background: #1D1C18;
+    overflow: hidden;
+    border:none;
+    color: #fff;
+}
