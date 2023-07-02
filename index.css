@@ -70,7 +70,7 @@ header
 {
     height: 100%;
     width: 100%;
-    min-height: 100vh;
+    min-height: 94vh;
     background: linear-gradient(245.59deg, #8b8232 0%, #918835,  #F0E161 75.52%);
     position: relative;
     display: grid;
@@ -301,6 +301,7 @@ footer
 {
     background: #1D1C18;
     overflow: hidden;
-    border:none;
+    border:#1D1C18;
     color: #fff;
+
 }
