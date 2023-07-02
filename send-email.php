@@ -23,7 +23,7 @@ if(isset($_POST["send"]))
    ";
    $mail->Password = "cxqvqdwrscahqhos
    ";
-   $mail-Port = 465;
+   $mail->Port = 465;
    $mail->SMTPSecure = 'ssl';
    $mail->isHTML(true);
    $mail->setFrom($email, $name);
@@ -32,7 +32,7 @@ if(isset($_POST["send"]))
    $mail->Body = $message;
     $mail->send();
     
-   header("Location: index.php");
+   header ("Location: index.php");
 }
 
 

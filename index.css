@@ -70,7 +70,7 @@ header
 {
     height: 100%;
     width: 100%;
-    min-height: 94vh;
+    min-height: 95vh;
     background: linear-gradient(245.59deg, #8b8232 0%, #918835,  #F0E161 75.52%);
     position: relative;
     display: grid;
@@ -88,11 +88,18 @@ section
     font-weight: 400;
     color: #222;
     margin-bottom: 20px;
+    
 }
 .municipal
 {
     height: 500px;
     transition: all .55s ease;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0,.4);
+}
+.municipal:hover
+{
+    height: 550px;
 }
 .hero-text h2
 {
@@ -101,6 +108,7 @@ section
     line-height: 1;
     color: #222;
     margin: 0 0 45px;
+    overflow: hidden;
 }
 
 .hero-text a
@@ -300,8 +308,33 @@ transition: all .50s ease;
 footer
 {
     background: #1D1C18;
-    overflow: hidden;
-    border:#1D1C18;
+    height: 44px;
+    width: 100%;
+    
     color: #fff;
 
+}
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.footer-content p
+{
+    max-width: 500px;
+    margin: 10px auto;
+    
+    font-size: 14px;
+}
+.input-group
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
 }
