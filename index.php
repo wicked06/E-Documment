@@ -80,7 +80,7 @@
  <div class="footer-content">
     
     <div class="footer-bottom">
-      <p>copyright &copy; Group# designed by <span>Rex Bernesto</span></p>
+      <p>copyright &copy; The IS-UATech Enthusiast designed by <span>Rex Bernesto</span></p>
     </div>
  </div>
 </footer>
